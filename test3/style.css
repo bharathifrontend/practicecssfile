@@ -1,0 +1,105 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+  background-color: DodgerBlue;
+  position: relative;
+}
+
+.flex-child1 {
+  background-color: #340aef;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  color: white;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+}
+.flex-child2 {
+  background-color: #3712cd;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 100px;
+  width: 100px;
+  color: white;
+}
+.flex-child3 {
+  background-color: #3712cd;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  height: 100px;
+  width: 100px;
+  color: white;
+}
+.flex-child4 {
+  background-color: #3712cd;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 100px;
+  width: 100px;
+  color: white;
+}
+.flex-child5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 500px;
+  background-color: pink;
+  position: relative;
+}
+.flex-child6 {
+  background-color: #afed06;
+  position: absolute;
+
+  height: 100px;
+  width: 100px;
+  top: 250px;
+  left: 701px;
+  text-align: center;
+  color: black;
+}
+.flex-child7 {
+  background-color: #afed06;
+  position: absolute;
+
+  height: 100px;
+  width: 100px;
+  top: 250px;
+  right: 701px;
+  text-align: center;
+  color: black;
+}
+.flex-child8 {
+  background-color: #afed06;
+  position: absolute;
+
+  height: 100px;
+  width: 100px;
+  bottom: 250px;
+  right: 701px;
+  text-align: center;
+  color: black;
+}
+.flex-child9 {
+  background-color: #afed06;
+  position: absolute;
+
+  height: 100px;
+  width: 100px;
+  bottom: 250px;
+  left: 701px;
+  text-align: center;
+  color: black;
+}
